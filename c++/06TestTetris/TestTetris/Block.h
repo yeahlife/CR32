@@ -1,5 +1,6 @@
 #pragma once
 
+int m_coords[4][2];
 //·½¿éÀà
 class CBlock
 {
@@ -48,6 +49,6 @@ private:
 
 private:
     emBlockType m_Type;
-    int m_coords[4][2];
+
 };
 
