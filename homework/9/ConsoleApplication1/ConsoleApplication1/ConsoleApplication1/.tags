@@ -1,0 +1,127 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BLACK	.\cubePoint.h	/^	BLACK = 30,$/;"	e	enum:color
+BLUE	.\cubePoint.h	/^	BLUE,\/\/34$/;"	e	enum:color
+CLEAR	.\cubePoint.h	/^	CLEAR = 0,$/;"	e	enum:color
+CUBEPOINT_H_	.\cubePoint.h	2;"	d
+CUBE_SIZE	.\game.cpp	12;"	d	file:
+CUR_H_	.\cur.h	2;"	d
+Context	.\graph.h	/^	Context(char cType) \/\/获取形状和颜色$/;"	f	class:Context
+Context	.\graph.h	/^class Context \/\/情境$/;"	c
+CubePoint	.\cubePoint.h	/^	CubePoint()$/;"	f	class:CubePoint
+CubePoint	.\cubePoint.h	/^	CubePoint(int a,int b,int c)$/;"	f	class:CubePoint
+CubePoint	.\cubePoint.h	/^class CubePoint{$/;"	c
+Cur	.\cur.h	/^class Cur{$/;"	c
+DEEP_GREEN	.\cubePoint.h	/^	DEEP_GREEN,\/\/36$/;"	e	enum:color
+DOWN	.\graph.h	7;"	d
+GAME_PAUSE	.\game.h	/^	GAME_PAUSE = 0,$/;"	e	enum:MARK
+GAME_RUN	.\game.h	/^	GAME_RUN = 1$/;"	e	enum:MARK
+GAME_STOP	.\game.h	/^	GAME_STOP = -1,$/;"	e	enum:MARK
+GREEN	.\cubePoint.h	/^	GREEN,\/\/32$/;"	e	enum:color
+Game	.\game.cpp	/^Game::Game()\/*game 构造*\/$/;"	f	class:Game
+Game	.\game.h	/^class Game$/;"	c
+Gbase	.\graph.h	/^	Gbase(){$/;"	f	class:Gbase
+Gbase	.\graph.h	/^class Gbase{$/;"	c
+Igraph	.\graph.h	/^class Igraph : public Gbase{\/\/形状 I$/;"	c
+LEFT	.\graph.h	8;"	d
+LINE	.\graph.h	10;"	d
+Lgraph	.\graph.h	/^class Lgraph : public Gbase{\/\/形状 L$/;"	c
+MARK	.\game.h	/^enum MARK{$/;"	g
+Ograph	.\graph.h	/^class Ograph : public Gbase{\/\/ 形状 O$/;"	c
+PENAL_SIZE	.\game.cpp	11;"	d	file:
+PURPLE	.\cubePoint.h	/^	PURPLE,\/\/35$/;"	e	enum:color
+RAND_H	.\rand.h	2;"	d
+RED	.\cubePoint.h	/^	RED, \/\/31$/;"	e	enum:color
+RIGHT	.\graph.h	9;"	d
+Rand	.\rand.cpp	/^Rand::Rand()$/;"	f	class:Rand
+Rand	.\rand.h	/^class Rand$/;"	c
+SCORE_H	.\score.h	2;"	d
+SPEED	.\game.cpp	10;"	d	file:
+Score	.\score.h	/^    Score(){player = "Test";score = 0;};\/\/初始化状态信息$/;"	f	class:Score
+Score	.\score.h	/^class Score{$/;"	c
+Tgraph	.\graph.h	/^class Tgraph : public Gbase{\/\/形状 T$/;"	c
+WHITE	.\cubePoint.h	/^	WHITE\/\/37$/;"	e	enum:color
+YELLOW	.\cubePoint.h	/^	YELLOW,\/\/33$/;"	e	enum:color
+Zgraph	.\graph.h	/^class Zgraph : public Gbase{ \/\/形状 Z$/;"	c
+a	.\graph.h	/^	int a[3][3];$/;"	m	class:Gbase
+clr	.\graph.h	/^	color clr;$/;"	m	class:Context
+color	.\cubePoint.h	/^	int color;$/;"	m	class:CubePoint
+color	.\cubePoint.h	/^enum color{$/;"	g
+createCube	.\game.cpp	/^void Game::createCube()\/\/创建形状$/;"	f	class:Game
+down	.\game.cpp	/^void Game::down(int level)\/\/消行$/;"	f	class:Game
+draw	.\graph.h	/^	virtual void draw(){}$/;"	f	class:Gbase
+draw	.\graph.h	/^	void draw(){$/;"	f	class:Igraph
+draw	.\graph.h	/^	void draw(){$/;"	f	class:Lgraph
+draw	.\graph.h	/^	void draw(){$/;"	f	class:Ograph
+draw	.\graph.h	/^	void draw(){$/;"	f	class:Tgraph
+draw	.\graph.h	/^	void draw(){$/;"	f	class:Zgraph
+draw	.\graph.h	/^	void draw(){gbase->draw();}$/;"	f	class:Context
+erase	.\game.cpp	/^void Game::erase() \/*抹去*\/$/;"	f	class:Game
+erasePenal	.\game.cpp	/^bool Game::erasePenal()\/*擦除面板*\/$/;"	f	class:Game
+gameInit	.\game.cpp	/^void Game::gameInit()\/*game 初始化*\/$/;"	f	class:Game
+gbase	.\graph.h	/^	Gbase* gbase;$/;"	m	class:Context
+getArray	.\graph.h	/^    void* getArray() { return gbase->getArray();}$/;"	f	class:Context
+getArray	.\graph.h	/^    void* getArray(){return (void*)a;}\/\/获取数组首地址$/;"	f	class:Gbase
+getColor	.\cubePoint.h	/^	int getColor(){return color;}$/;"	f	class:CubePoint
+getColor	.\graph.h	/^color getColor()$/;"	f	class:Context
+getLocate	.\cubePoint.h	/^	void getLocate(int&x,int &y){x = this->x;y = this->y;}$/;"	f	class:CubePoint
+getLocate	.\graph.h	/^    void getLocate(int *a,int* b){gbase->getLocate(a,b);}$/;"	f	class:Context
+getLocate	.\graph.h	/^    void getLocate(int* a,int* b){*a = x;*b = y;}\/*获取方块位置*\/$/;"	f	class:Gbase
+getMark	.\game.cpp	/^MARK Game::getMark() \/*获取游戏状态*\/$/;"	f	class:Game
+getShape	.\game.cpp	/^char Game::getShape()\/*获得方块形状*\/$/;"	f	class:Game
+isAttachBottom	.\game.cpp	/^bool Game::isAttachBottom()\/*是否到达底部*\/$/;"	f	class:Game
+isAttachLeft	.\game.cpp	/^bool Game::isAttachLeft()\/*是否到达最左侧*\/$/;"	f	class:Game
+isAttachRight	.\game.cpp	/^bool Game::isAttachRight()\/*是否到达最右侧*\/$/;"	f	class:Game
+m_color	.\game.h	/^	color m_color[24][17];\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/$/;"	m	class:Game
+m_graph	.\game.h	/^    Context* m_graph;\/\/方块信息$/;"	m	class:Game
+m_penal	.\game.h	/^    int m_penal[24][17];$/;"	m	class:Game
+main	.\game.cpp	/^int main()$/;"	f
+mark	.\game.h	/^	MARK mark;\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/$/;"	m	class:Game
+move	.\game.cpp	/^void Game::move(int dir)\/*移动方块*\/$/;"	f	class:Game
+move	.\graph.cpp	/^int Gbase::move(int dir)\/\/方块移动$/;"	f	class:Gbase
+move	.\graph.h	/^	int move(int dir){return gbase->move(dir);}$/;"	f	class:Context
+moveCur	.\cur.cpp	/^void Cur::moveCur(const int x,const int y)$/;"	f	class:Cur
+nextGraph	.\game.h	/^	Context* nextGraph;\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/$/;"	m	class:Game
+num	.\game.cpp	/^int num = 0;$/;"	v
+player	.\score.h	/^    string player;$/;"	m	class:Score
+printG	.\graph.cpp	/^void Gbase::printG(int color) \/\/打印颜色$/;"	f	class:Gbase
+printG	.\graph.h	/^    void printG(int color){$/;"	f	class:Context
+printHelep	.\game.cpp	/^void Game::printHelep() \/*右侧提示信息*\/$/;"	f	class:Game
+printMessage	.\score.cpp	/^void Score::printMessage()\/\/打印信息$/;"	f	class:Score
+printNextCube	.\game.cpp	/^void Game::printNextCube(Context* graph) \/*下一个形状*\/$/;"	f	class:Game
+printPoint	.\cubePoint.cpp	/^void CubePoint::printPoint()\/*? 打印坐标点*\/$/;"	f	class:CubePoint
+r	.\game.cpp	/^static Rand r;$/;"	v	file:
+randNum	.\rand.cpp	/^int Rand::randNum(int x,int y)$/;"	f	class:Rand
+random	.\rand.cpp	/^double random(double start,double end)$/;"	f
+recoverPenal	.\game.cpp	/^bool Game::recoverPenal()\/\/恢复面板$/;"	f	class:Game
+resumeCur	.\cur.cpp	/^void Cur::resumeCur()$/;"	f	class:Cur
+roll	.\game.cpp	/^void Game::roll() \/*旋转形状*\/$/;"	f	class:Game
+roll	.\graph.cpp	/^int Gbase::roll()\/\/旋转方块$/;"	f	class:Gbase
+roll	.\graph.h	/^	int roll(){return gbase->roll();}$/;"	f	class:Context
+roll	.\graph.h	/^    virtual int roll() { return 0; }$/;"	f	class:Ograph
+s	.\game.h	/^    Score s;$/;"	m	class:Game
+saveCur	.\cur.cpp	/^void Cur::saveCur()$/;"	f	class:Cur
+score	.\score.h	/^    int score;$/;"	m	class:Score
+setColor	.\cubePoint.h	/^	void setColor(const int color){this->color = color;}\/*设置颜色*\/$/;"	f	class:CubePoint
+setColor	.\graph.h	/^void setColor(color clr)$/;"	f	class:Context
+setLocate	.\cubePoint.h	/^	void setLocate(const int x,const int y){this->x = x;this->y = y;}\/*设置位置*\/$/;"	f	class:CubePoint
+setLocate	.\graph.h	/^	void setLocate(int a,int b){gbase->setLocate(a,b);}$/;"	f	class:Context
+setLocate	.\graph.h	/^	void setLocate(int a,int b){x = a;y = b;}\/*设置方块位置*\/$/;"	f	class:Gbase
+setMark	.\game.cpp	/^void Game::setMark( MARK mark )\/*设置游戏状态*\/$/;"	f	class:Game
+setName	.\score.h	/^    void setName(string name){player = name;};\/\/设置名字$/;"	f	class:Score
+setPenal	.\game.cpp	/^bool Game::setPenal()\/\/设置面板$/;"	f	class:Game
+setScore	.\score.h	/^    void setScore(int s){score = s;};\/\/设置分数$/;"	f	class:Score
+stop	.\game.cpp	/^void Game::stop()\/*停止游戏*\/$/;"	f	class:Game
+stop_flag	.\game.cpp	/^static int stop_flag;$/;"	v	file:
+x	.\cubePoint.h	/^	int x;$/;"	m	class:CubePoint
+x	.\game.h	/^    int x;$/;"	m	class:Game
+x	.\graph.h	/^	int x;$/;"	m	class:Gbase
+y	.\cubePoint.h	/^	int y; \/\/每个方格点有颜色属性，坐标属性$/;"	m	class:CubePoint
+y	.\game.h	/^    int y;\/\/当前方块的位置，方块移动或者旋转成功后才可以设置这个值$/;"	m	class:Game
+y	.\graph.h	/^	int y;	\/\/a[0][0]的位置$/;"	m	class:Gbase
+~Context	.\graph.h	/^    ~Context()$/;"	f	class:Context
+~Game	.\game.cpp	/^Game::~Game()\/*game 析构*\/$/;"	f	class:Game
