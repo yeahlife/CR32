@@ -34,7 +34,7 @@ void foo() {
     tree.LDR(tree.GetRoot());
 
     //前序遍历
-    //50  30  10 40 70 60 80
+    //50 30 10 40 70 60 80
     //tree._DLR(tree.GetRoot());
 
     //中序遍历
