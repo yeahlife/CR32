@@ -143,7 +143,7 @@ INT_PTR CALLBACK DialogProc(HWND hwndDlg,  // handle to dialog box
         HWND hEdit = GetDlgItem(hwndDlg, IDC_EDIT1);
 
         //设置窗口过程函数
-        g_OldProc = (WNDPROC)SetWindowLong(hEdit, GWL_WNDPROC, (LONG)MyEditWndProc);
+        g_OldProc = (WNDPROC)SetWindowLong(hEdit, GWLP_WNDPROC, (LONG)MyEditWndProc);
 
         
 
